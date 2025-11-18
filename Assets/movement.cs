@@ -1,32 +1,3 @@
-# Ex5-Animator-Movement
-## Aim:
-To develop a animator movement for a player using unity.
-
-## Algorithm:
-## Step 1: 
-
-Import necessary models.
-
-## Step 2: 
-
- Right-click -> Create -> Animator Controller.
-
-## Step 3: 
-
-Open Animator window, define states (Idle, Run, Jump, etc.).
-
-## Step 4: 
-
-Use keyframes or Unity's Animation tools to animate transitions between states
-
-## Step 5: 
-
-Drag Animator Controller to the GameObject in the Inspector.
-
-## Program:
-
-### Movement:
-```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,12 +22,3 @@ public class movement : MonoBehaviour
         animator.SetFloat("InputY", InputY);
     }
 }
-```
-
-## Output:
-
-![alt text](image.png)
-
-## Result:
-
-An animator movement for a player using unity is developed successfully.
